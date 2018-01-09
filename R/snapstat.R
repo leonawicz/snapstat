@@ -1,3 +1,5 @@
+globalVariables(".data")
+
 #' snapstat: Graph and analyze SNAP data sets.
 #'
 #' Provides a suite of functions for graphing and analyzing SNAP data sets.
