@@ -15,7 +15,11 @@ cache:
 
 # Adapt as necessary starting from here
 
+environment:
+  _R_CHECK_FORCE_SUGGESTS_: false
+
 build_script:
+  - travis-tool.sh install_github leonawicz/snapclim
   - travis-tool.sh install_deps
 
 test_script:
