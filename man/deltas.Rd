@@ -26,6 +26,7 @@ Use the climatologies to compute delta change from raw climate values.
 \code{cru_clim} is used internally by \code{deltas}. It does not need to be used directly in this case.
 }
 \examples{
+\dontshow{library(dplyr)}
 library(snapclim)
 library(dplyr)
 x <- climdata("ar5stats", "Anchorage") \%>\%
