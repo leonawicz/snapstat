@@ -12,6 +12,7 @@
 #' @name deltas
 #'
 #' @examples
+#' \dontshow{library(dplyr)}
 #' library(snapclim)
 #' library(dplyr)
 #' x <- climdata("ar5stats", "Anchorage") %>%
