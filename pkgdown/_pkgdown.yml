@@ -12,6 +12,15 @@ authors:
     href: http://snap.uaf.edu/
     html: <img src="https://raw.githubusercontent.com/leonawicz/leonawicz.github.io/master/assets/img/snap_symbol.svg?sanitize=true" height="24" />  Scenarios Network for Alaska and Arctic Planning
 
+reference:
+- title: Package
+  contents:
+  - snapstat
+- title: Climatologies and deltas
+  contents:
+  - cru_clim
+  - deltas
+
 navbar:
   type: inverse
   right:
@@ -32,8 +41,8 @@ navbar:
           href: https://leonawicz.github.io/snapwebs
         - text: "--------"
         - text: "Functions packages"
-        - text: "snapfuns"
-          href: https://leonawicz.github.io/snapfuns
+        - text: "snapstat"
+          href: https://leonawicz.github.io/snapstat
         - text: "snaplocs"
           href: https://leonawicz.github.io/snaplocs
         - text: "snapprep"
