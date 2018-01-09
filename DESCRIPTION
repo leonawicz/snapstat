@@ -1,0 +1,28 @@
+Package: snapstat
+Version: 0.1.0
+Title: Graph and Analyze SNAP Data Sets
+Description: Provides a suite of functions for graphing and analyzing climate data sets from Scenarios Network for Alaska and Arctic Planning 
+    at the University of Alaska Fairbanks. 'snapstat' is the primary package in the SNAPverse collection of R packages for 
+    graphical and statistical analysis of public SNAP climate data.
+Authors@R: c(person("Matthew", "Leonawicz", email = "mfleonawicz@alaska.edu", role = c("aut", "cre")),
+    person("Scenarios Network for Alaska and Arctic Planning", role = c("cph", "fnd"))
+    )
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+URL: https://github.com/leonawicz/snapstat
+BugReports: https://github.com/leonawicz/snapstat/issues
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown,
+    covr
+VignetteBuilder: knitr
+Imports: 
+    magrittr,
+    dplyr,
+    snapclim
+Remotes:
+    leonawicz/snapclim
+RoxygenNote: 6.0.1
