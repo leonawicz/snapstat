@@ -3,7 +3,6 @@
 \name{deltas}
 \alias{deltas}
 \alias{cru_clim}
-\alias{deltas}
 \title{CRU-based climatologies and delta change}
 \usage{
 cru_clim(x, limits = c(1960, 1989))

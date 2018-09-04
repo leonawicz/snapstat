@@ -5,6 +5,11 @@ snapstat
 
 [![Travis-CI Build Status](https://travis-ci.org/leonawicz/snapstat.svg?branch=master)](https://travis-ci.org/leonawicz/snapstat) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/leonawicz/snapstat?branch=master&svg=true)](https://ci.appveyor.com/project/leonawicz/snapstat) [![Coverage Status](https://img.shields.io/codecov/c/github/leonawicz/snapstat/master.svg)](https://codecov.io/github/leonawicz/snapstat?branch=master)
 
+SNAPverse R package ecosystem development frozen.
+-------------------------------------------------
+
+*Development of the SNAPverse R package ecosystem has been frozen indefinitely. This project was never directly funded. I began it out of personal interest, but no longer work for SNAP. It will remain archived here for historical reference.*
+
 `snapstat` provides a suite of functions for graphing and analyzing SNAP data sets. It is the primary package in the [SNAPverse](https://leonawicz.github.io/snapverse/) for users to enagage in graphical and statistical analysis of SNAP data.
 
 Installation
